@@ -1,0 +1,16 @@
+.hello{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+}
+.hello div{
+    background-color: aqua;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.hello div:hover{
+    transform: scale(1.2);
+}
+*{
+    background-color: black;
+}
