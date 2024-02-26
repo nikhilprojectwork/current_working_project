@@ -6,7 +6,8 @@
 .hello div{
     background-color: aqua;
     transition-duration: 2s;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 1.37, 1, 1);
+    border-radius: 50px;
 }
 .hello div:hover{
     transform: scale(1.2);
